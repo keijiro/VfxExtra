@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor.VFX;
 
-namespace CustomNodes
+namespace VfxExtra
 {
     [VFXInfo(category = "Random")]
     class SharedRandom : VFXOperator

@@ -1,7 +1,7 @@
 using UnityEngine.Experimental.VFX;
 using UnityEditor.VFX;
 
-namespace CustomNodes
+namespace VfxExtra
 {
     class VFXExpressionSharedRandom : VFXExpression
     {
