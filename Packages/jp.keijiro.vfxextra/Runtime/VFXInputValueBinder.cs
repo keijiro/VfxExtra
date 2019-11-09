@@ -5,6 +5,9 @@ using UnityEngine.InputSystem;
 
 namespace VfxExtra
 {
+    //
+    // VFX property binder with an InputAction value
+    //
     [VFXBinder("Input/Input Value")]
     public class VFXInputValueBinder : VFXBinderBase
     {

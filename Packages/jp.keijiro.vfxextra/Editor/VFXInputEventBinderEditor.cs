@@ -3,6 +3,9 @@ using UnityEditor;
 
 namespace VfxExtra
 {
+    //
+    // A simple custom editor for VFXInputEventBinder
+    //
     [CustomEditor(typeof(VFXInputEventBinder)), CanEditMultipleObjects]
     sealed class VFXInputEventBinderEditor : Editor
     {
@@ -14,7 +17,7 @@ namespace VfxExtra
         {
             _target = serializedObject.FindProperty("target");
             _eventName = serializedObject.FindProperty("EventName");
-            _action = serializedObject.FindProperty("_action");
+            _action = serializedObject.FindProperty("Action");
         }
 
         public override void OnInspectorGUI()

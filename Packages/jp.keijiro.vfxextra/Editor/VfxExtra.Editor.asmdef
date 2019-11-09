@@ -1,7 +1,8 @@
 {
     "name": "VfxExtra.Editor",
     "references": [
-        "GUID:00e8855e557f7a5368e6f332424d7a01"
+        "GUID:00e8855e557f7a5368e6f332424d7a01",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
     ],
     "includePlatforms": [
         "Editor"

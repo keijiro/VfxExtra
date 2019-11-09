@@ -5,33 +5,36 @@ using UnityEngine.InputSystem;
 
 namespace VfxExtra
 {
+    //
+    // An event binder class to invoke VFX event from an InputAction
+    //
     public class VFXInputEventBinder : VFXEventBinderBase
     {
-        public InputAction _action = null;
+        public InputAction Action = null;
 
         ExposedProperty _alpha = "alpha";
 
         protected override void SetEventAttribute(object[] parameters)
         {
-            if (_action != null)
-                eventAttribute.SetFloat(_alpha, _action.ReadValue<float>());
+            if (Action != null)
+                eventAttribute.SetFloat(_alpha, Action.ReadValue<float>());
         }
 
         void OnEnable()
         {
-            if (_action != null)
+            if (Action != null)
             {
-                _action.performed += OnPerformed;
-                _action.Enable();
+                Action.performed += OnPerformed;
+                Action.Enable();
             }
         }
 
         void OnDisable()
         {
-            if (_action != null)
+            if (Action != null)
             {
-                _action.performed -= OnPerformed;
-                _action.Disable();
+                Action.performed -= OnPerformed;
+                Action.Disable();
             }
         }
 

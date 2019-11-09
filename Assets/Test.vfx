@@ -132,7 +132,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5
+      m_SerializableObject: 0.5
     min: -Infinity
     max: Infinity
     descendantCount: 0
@@ -594,8 +594,8 @@ VisualEffectResource:
       = GetStripDataFromStripIndex(stripIndex, PARTICLE_PER_STRIP_COUNT);\r\n\t\tInitStripAttributes(particleIndex,
       attributes, stripData);\r\n\t\t// TODO Change seed to be sure we're deterministic
       on random with strip\r\n#endif\r\n        \r\n        {\n            SetAttribute_CAC29A5D(
-      /*inout */attributes.position,  /*inout */attributes.seed, float3(-1, -0.699999988,
-      0), float3(1, -0.699999988, 0));\n        }\n        {\n            SetAttribute_F01429A3(
+      /*inout */attributes.position,  /*inout */attributes.seed, float3(-0.5, -0.699999988,
+      0), float3(0.5, -0.699999988, 0));\n        }\n        {\n            SetAttribute_F01429A3(
       /*inout */attributes.lifetime,  /*inout */attributes.seed, (float)0.800000012,
       (float)1.39999998);\n        }\n        {\n            float tmp_y = sourceAttributes.alpha;\n           
       uint tmp_z = attributes.particleId ^ asuint(uniform_b);\n            float
@@ -1080,7 +1080,7 @@ VisualEffectResource:
       m_Float:
         m_Array:
         - m_ExpressionIndex: 5
-          m_Value: 5
+          m_Value: 0.5
         - m_ExpressionIndex: 6
           m_Value: 47
         - m_ExpressionIndex: 7
@@ -1104,9 +1104,9 @@ VisualEffectResource:
       m_Vector3f:
         m_Array:
         - m_ExpressionIndex: 19
-          m_Value: {x: 1, y: -0.7, z: 0}
+          m_Value: {x: 0.5, y: -0.7, z: 0}
         - m_ExpressionIndex: 20
-          m_Value: {x: -1, y: -0.7, z: 0}
+          m_Value: {x: -0.5, y: -0.7, z: 0}
         - m_ExpressionIndex: 24
           m_Value: {x: 2, y: 2, z: 2}
         - m_ExpressionIndex: 25
@@ -1303,7 +1303,7 @@ VisualEffectResource:
     - name: OnStop
       playSystems: 
       stopSystems: 0000000001000000
-    - name: OnAction
+    - name: OnLaunch
       playSystems: 00000000
       stopSystems: 
     m_RuntimeVersion: 10
@@ -1684,7 +1684,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5
+      m_SerializableObject: 0.5
     m_Space: 2147483647
   m_Property:
     name: o
@@ -1979,7 +1979,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":-1.0,"y":-0.699999988079071,"z":0.0}}'
+      m_SerializableObject: '{"position":{"x":-0.5,"y":-0.699999988079071,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: A
@@ -2155,7 +2155,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.Position, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"position":{"x":1.0,"y":-0.699999988079071,"z":0.0}}'
+      m_SerializableObject: '{"position":{"x":0.5,"y":-0.699999988079071,"z":0.0}}'
     m_Space: 0
   m_Property:
     name: B
@@ -2547,7 +2547,7 @@ MonoBehaviour:
   - link:
     - context: {fileID: 8926484042661614601}
       slotIndex: 0
-  eventName: OnAction
+  eventName: OnLaunch
 --- !u!114 &8926484042661614606
 MonoBehaviour:
   m_ObjectHideFlags: 0

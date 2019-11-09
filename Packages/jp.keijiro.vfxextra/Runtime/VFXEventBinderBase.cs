@@ -1,10 +1,12 @@
-// This script file is simply copy-and-pasted from the Visual Effect Graph
-// package to circumvent the class protection.
-
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.VFX;
+
+//
+// This class was simply copy-and-pasted from the Visual Effect Graph package
+// to circumvent the original class protection.
+//
 
 namespace VfxExtra
 {
