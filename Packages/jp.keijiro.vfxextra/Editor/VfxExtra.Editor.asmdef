@@ -1,10 +1,8 @@
 {
-    "name": "Unity.VisualEffectGraph.EditorTests",
+    "name": "VfxExtra.Editor",
     "references": [
-        "Unity.VisualEffectGraph.Editor",
-        "Unity.VisualEffectGraph.Runtime"
+        "GUID:00e8855e557f7a5368e6f332424d7a01"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [
         "Editor"
     ],
@@ -14,5 +12,6 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": []
+    "versionDefines": [],
+    "noEngineReferences": false
 }

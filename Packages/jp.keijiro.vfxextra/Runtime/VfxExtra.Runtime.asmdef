@@ -1,0 +1,16 @@
+{
+    "name": "VfxExtra.Runtime",
+    "references": [
+        "GUID:d04eb9c554ad44ceab303cecf0c0cf82",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
