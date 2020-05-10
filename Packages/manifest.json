@@ -9,15 +9,8 @@
     }
   ],
   "dependencies": {
-    "jp.keijiro.minis": "1.0.3",
-    "com.unity.inputsystem": "1.0.0-preview.2",
-    "com.unity.render-pipelines.universal": "7.1.2",
-    "com.unity.visualeffectgraph": "7.1.2",
-    "com.unity.modules.animation": "1.0.0",
-    "com.unity.modules.physics": "1.0.0",
-    "com.unity.modules.physics2d": "1.0.0",
-    "com.unity.modules.ui": "1.0.0",
-    "com.unity.modules.uielements": "1.0.0",
-    "com.unity.modules.vr": "1.0.0"
+    "com.unity.render-pipelines.universal": "7.3.1",
+    "com.unity.visualeffectgraph": "7.3.1",
+    "jp.keijiro.minis": "1.0.7"
   }
 }
