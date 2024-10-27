@@ -1,5 +1,5 @@
 {
-    "name": "Test",
+    "name": "BinderTest",
     "maps": [
         {
             "name": "Test",
@@ -11,7 +11,8 @@
                     "id": "ee90b3c0-607f-4f46-b722-8d0c4f338c79",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Spawn Rate",
@@ -19,7 +20,8 @@
                     "id": "aad71e7a-c5a0-4557-945b-54494671801e",
                     "expectedControlType": "",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
