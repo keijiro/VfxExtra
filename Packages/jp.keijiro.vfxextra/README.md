@@ -26,43 +26,10 @@ VFXInputEventBinder -- Sends a VFX event on an InputAction.
 VFXPlayerInputEventBinder -- Receives an action from a PlayerInput and sends a
 VFX event.
 
-How To Install
---------------
+## How to install
 
-This package uses the [scoped registry] feature to resolve package
-dependencies. Please add the following sections to the manifest file
-(Packages/manifest.json).
+[Follow those instructions] to set up the scoped registry. Then, you can install
+the VfxExtra package via Package Manager.
 
-[scoped registry]: https://docs.unity3d.com/Manual/upm-scoped.html
-
-To the `scopedRegistries` section:
-
-```
-{
-  "name": "Keijiro",
-  "url": "https://registry.npmjs.com",
-  "scopes": [ "jp.keijiro" ]
-}
-```
-
-To the `dependencies` section:
-
-```
-"jp.keijiro.vfx-extra": "1.0.0"
-```
-
-After changes, the manifest file should look like below:
-
-```
-{
-  "scopedRegistries": [
-    {
-      "name": "Keijiro",
-      "url": "https://registry.npmjs.com",
-      "scopes": [ "jp.keijiro" ]
-    }
-  ],
-  "dependencies": {
-    "jp.keijiro.vfx-extra": "1.0.0",
-    ...
-```
+[Follow those instructions]:
+  https://gist.github.com/keijiro/f8c7e8ff29bfe63d86b888901b82644c
