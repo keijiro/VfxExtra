@@ -817,7 +817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9354ac1a4957cfe8885defaedb83575b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _property:
+  Property:
     m_Name: Spawn Rate
   Input: {fileID: 1467692302}
   Action:
@@ -960,7 +960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c25f1ccb7695589aaaa3a46c31579265, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _property:
+  Property:
     m_Name: Spawn Rate
   Action:
     m_Name: Action
